@@ -1,0 +1,16 @@
+inherit_from: ./configs/TUM_RGBD/tum.yaml
+
+scene: freiburg1_desk
+only_tracking: False
+wandb: True
+deblur_idx: [3,4,5,6,7,8,9,10,12,13,14,21,23,24,29,30,31,32,34,35,36,37,38,39,40,41,42,43,45,47,49,54,55,56,59,60,66,67,68,69,72,75,76,78,79,80,81,82,83,86,87,90,91,94,95,96,97,99,100,101,102,104,105,107,108,109,110,111,112]
+data:
+  input_folder: datasets/TUM_RGBD/rgbd_dataset_freiburg1_desk
+cam:
+  H: 480 
+  W: 640 
+  fx: 517.3
+  fy: 516.5
+  cx: 318.6
+  cy: 255.3
+  distortion: [0.2624, -0.9531, -0.0054, 0.0026, 1.1633]

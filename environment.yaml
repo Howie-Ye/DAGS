@@ -1,0 +1,53 @@
+name: DAGS
+channels:
+  - pyg
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch-cuda=11.8
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - numpy=1.26.4
+  # 2DGS
+  - ffmpeg=4.2.2
+  - pillow=10.2.0
+  - typing_extensions=4.9.0
+
+  - pip:
+      # 2DGS
+      - open3d==0.18.0
+      - mediapy==1.1.2
+      - lpips==0.1.4
+      - scikit-image==0.21.0
+      - tqdm==4.66.2
+      - trimesh==4.3.2
+      - src/gaussian_splatting/submodules/diff-surfel-rasterization
+      - src/gaussian_splatting/submodules/simple-knn
+
+      # Metric3D
+      - opencv-python
+      - numpy==1.23.1
+      - xformers==0.0.21
+      - Pillow
+      - DateTime
+      - matplotlib
+      - plyfile
+      - HTML4Vision
+      - timm
+      - tensorboardX
+      - imgaug
+      - iopath
+      - imagecorruptions
+      - mmcv
+
+      - wandb
+      - einops
+      - evo==1.25.2
+      - pytorch_msssim
+      - git+https://github.com/eriksandstroem/evaluate_3d_reconstruction_lib.git@9b3cc08be5440db9c375cc21e3bd65bb4a337db7
+      - torchmetrics==0.9.3
+      - jaxtyping
+      - pytorch-scatter
