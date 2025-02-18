@@ -1,29 +1,9 @@
+<div align="center"><span style="font-size:24px; font-weight:bold;">DAGS: Deblur-Aware Gaussian Splatting 
+<br> Simultaneous Localization and Mapping</span></div>
 
-<style>
-  .center-text {
-    text-align: center;
-  }
-  
-  .big-bold-text {
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .result-images img {
-    margin: 10px;
-    max-width: 100%;
-    height: auto;
-  }
-</style>
-
-<div class="center-text">
-  <p class="big-bold-text">DAGS: Deblur-Aware Gaussian Splatting Simultaneous Localization and Mapping</p>
-</div>
-
-<div class="result-images center-text">
-  <img src="pic_results.png" alt="Result Images">
-  
-</div>
+<p align="center">
+  <img src="pic_results.png" alt="Result Images" style="max-width:100%; height:auto; margin:10px;">
+</p>
 
 
 <!-- TABLE OF CONTENTS -->
